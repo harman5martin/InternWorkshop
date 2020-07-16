@@ -1,4 +1,4 @@
-package src.src;
+package src.src.SubclassBindingExample;
 
 public class Customer {
     private String name;

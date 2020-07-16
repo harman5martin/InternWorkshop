@@ -1,4 +1,6 @@
-package src.src;
+package src.src.SingletonExample;
+
+import src.src.MultitonExample.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

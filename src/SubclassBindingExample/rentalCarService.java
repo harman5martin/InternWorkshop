@@ -1,4 +1,4 @@
-package src.src;
+package src.src.SubclassBindingExample;
 
 // Factory pattern-subclass binding example
 public abstract class rentalCarService {

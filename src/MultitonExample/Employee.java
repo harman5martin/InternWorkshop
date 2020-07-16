@@ -1,4 +1,4 @@
-package src.src;
+package src.src.MultitonExample;
 
 import java.util.HashMap;
 import java.util.Map;
