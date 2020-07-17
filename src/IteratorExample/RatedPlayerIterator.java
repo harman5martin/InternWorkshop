@@ -18,5 +18,4 @@ public class RatedPlayerIterator {
 
     // Feel free to ask any questions that arise during the exercise and be ready to share
     // your implementation with the group when we reconvene after the exercise
-
 }
