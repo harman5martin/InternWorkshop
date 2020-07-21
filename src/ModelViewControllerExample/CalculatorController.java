@@ -51,14 +51,14 @@ public class CalculatorController implements CalculatorObserver, CalculatorViewL
             OperationEvent op_event = (OperationEvent) e;
 
             if (!start_of_number) {
-                double disp_value = Double.parseDouble(view.getDisplay());
-                model.eval(new Operation(in_progress, disp_value));
+                double display_value = Double.parseDouble(view.getDisplay());
+                model.evaluate(new Operation(in_progress, display_value));
             }
             start_of_number = true;
             point_pressed = false;
             in_progress = op_event.getOpType();
             if (in_progress == Operation.OpType.SET) {
-                model.eval(new Operation(in_progress, model.getValue()));
+                model.evaluate(new Operation(in_progress, model.getValue()));
             }
         } else if (e.isInversionEvent()) {
             if (Double.parseDouble(view.getDisplay()) != 0) {
@@ -80,8 +80,8 @@ public class CalculatorController implements CalculatorObserver, CalculatorViewL
         }
     }
 
-    public void update(CalculatorModel calc, Operation op) {
-        view.appendToTape(op.toString() + "\n");
+    public void update(CalculatorModel calc, Operation operation) {
+        view.appendToTape(operation.toString() + "\n");
         view.setDisplay(Double.toString(model.getValue()));
     }
 }

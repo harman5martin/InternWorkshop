@@ -20,7 +20,7 @@ public class CalculatorModel {
         return value;
     }
 
-    public void eval(Operation op) {
+    public void evaluate(Operation op) {
         history.add(op);
 
         switch (op.getType()) {
