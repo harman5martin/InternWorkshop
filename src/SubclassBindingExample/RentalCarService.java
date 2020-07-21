@@ -1,16 +1,16 @@
 package src.src.SubclassBindingExample;
 
 // Factory pattern-subclass binding example
-public abstract class rentalCarService {
+public abstract class RentalCarService {
     private Customer renter;
 
-    protected rentalCarService(Customer renter) {
+    protected RentalCarService(Customer renter) {
         this.renter = renter;
     }
 
     // Static factory method with conditional logic based on parameters
     // for choosing correct subclass to create the desired object
-    public static rentalCarService rentVehicle(Customer customer, int passengers, boolean needRoofRack) throws Exception{
+    public static RentalCarService rentVehicle(Customer customer, int passengers, boolean needRoofRack) throws Exception{
         if (passengers <= 4 && !needRoofRack) {
             return new Sedan(customer);
         } else if(passengers <=8 && !needRoofRack) {
@@ -27,7 +27,7 @@ public abstract class rentalCarService {
     public abstract boolean hasRoofRack();
 }
 
-class Sedan extends rentalCarService{
+class Sedan extends RentalCarService {
     protected Sedan(Customer customer) {
         super(customer);
     }
@@ -41,7 +41,7 @@ class Sedan extends rentalCarService{
     }
 }
 
-class SUV extends rentalCarService{
+class SUV extends RentalCarService {
     protected SUV(Customer customer) {
         super(customer);
     }
@@ -55,7 +55,7 @@ class SUV extends rentalCarService{
     }
 }
 
-class Van extends rentalCarService{
+class Van extends RentalCarService {
     private boolean hasRoofRack;
     protected Van(Customer customer, boolean hasRoofRack) {
         super(customer);
