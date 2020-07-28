@@ -1,0 +1,24 @@
+TODO Exercise 2
+
+I have provided you with 2 interfaces to get started that represent the observable and the
+observer. You need to make implementations of both interfaces. Your group can pick a favorite
+team to use for the observer (mine is UNC). You can have multiple sports games playing with your
+favorite team.
+
+When your favorite team scores, you want to cheer for them. You can simply do this by printing
+to the console cheers for your team. If your favorite team scores and they are winning, then
+say "GO <TEAM>". If your favorite team scores but they are losing, then say "Good job <TEAM>,
+keep playing hard".
+
+You can make this exercise more interactive by creating a main class after implementing the two
+interfaces that creates and stores an array of games. I have already created this main class for
+you in this package and it has a little bit of code and comments to get you started.
+You should use the built in scanner to allow users to type into the console a numerical index
+in the game array representing a single game, the team who scored, and then how many points
+were scored. After this happens each time, print the score of that game to the console.
+
+Feel free to ask any questions that arise during the exercise and be ready to share
+your implementation with the group when we reconvene after the exercise.
+
+Note: I have my own solution to this exercise in another repository that will be shared
+to everyone after each group is provided time to work on this exercise.

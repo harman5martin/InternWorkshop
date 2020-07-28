@@ -17,5 +17,8 @@ public class RatedPlayerIterator {
     // If working correctly, you should only see players printed that have 4 or 5 stars.
 
     // Feel free to ask any questions that arise during the exercise and be ready to share
-    // your implementation with the group when we reconvene after the exercise
+    // your implementation with the group when we reconvene after the exercise.
+
+    // Note: I have my own solution to this exercise in another repository that will be shared
+    // to everyone after each group is provided time to work on this exercise.
 }

@@ -2,7 +2,7 @@ package src.src.ModelViewControllerExample;
 
 import javax.swing.JFrame;
 
-public class Main {
+public class MVCCalculator {
     public static void main(String[] args) {
         CalculatorModel model = new CalculatorModel();
         CalculatorView view = new CalculatorView();
