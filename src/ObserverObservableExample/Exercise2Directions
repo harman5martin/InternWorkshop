@@ -7,8 +7,8 @@ favorite team.
 
 When your favorite team scores, you want to cheer for them. You can simply do this by printing
 to the console cheers for your team. If your favorite team scores and they are winning, then
-say "GO <TEAM>". If your favorite team scores but they are losing, then say "Good job <TEAM>,
-keep playing hard".
+say "GO <TEAM>!". If your favorite team scores but they are losing, then say "Good job <TEAM>,
+keep playing hard.". If your team isn't the one to score, then say "Stay tough <TEAM>.".
 
 You can make this exercise more interactive by creating a main class after implementing the two
 interfaces that creates and stores an array of games. I have already created this main class for
