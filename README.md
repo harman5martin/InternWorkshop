@@ -7,10 +7,10 @@ The purpose of this workshop is to give an overview of software design patterns 
 9:30-9:45: Introduction    
 9:45-10:00: General overview of Software design patterns and their relevance  
 10:00-10:30: Overview of specific design patterns part 1 (1-5 listed below)  
-10:30-11:15: Exercise 
-11:15-11:45: Exercise discussion   
-11:45-12:15: Overview of specific design patterns part 2 (6-8 listed below)   
-12:15-12:30: Conclusion and final questions  
+10:30-11:00: Exercise 1 as a whole group with round robin coding and discussion      
+11:00-11:30: Overview of specific design patterns part 2 (6-8 listed below)   
+11:30-12:10: Exercise 2 in small groups    
+12:10-12:30: Exercise 2 discussion, conclusion, and final questions    
 
 ### Design Patterns Covered
 1. Singleton  
@@ -22,6 +22,10 @@ The purpose of this workshop is to give an overview of software design patterns 
 7. Observer/Observable  
 8. Model View Controller  
 
-### Exercise
+### Exercise 1
 Rated Player Iterator   
 Create a custom iterator class that will filter through a list of players and only return the ones with a 4 or 5 star rating. There are directions and starter code for this exercise in the iterator package.
+
+### Exercise 2
+Sports Game
+Use the observer/observable design pattern to create a model of sports games with fans that cheer for a favorite team during games. There are more specific instructions and directions in the observer/observable package. 
