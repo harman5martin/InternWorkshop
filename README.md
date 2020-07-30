@@ -23,9 +23,9 @@ The purpose of this workshop is to give an overview of software design patterns 
 8. Model View Controller  
 
 ### Exercise 1
-Rated Player Iterator   
+###### Rated Player Iterator   
 Create a custom iterator class that will filter through a list of players and only return the ones with a 4 or 5 star rating. There are directions and starter code for this exercise in the iterator package.
 
 ### Exercise 2
-Sports Game
+###### Sports Game   
 Use the observer/observable design pattern to create a model of sports games with fans that cheer for a favorite team during games. There are more specific instructions and directions in the observer/observable package. 
